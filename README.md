@@ -47,13 +47,13 @@
 
 
 ## Technical & Soft Skills:
-- [x]	Mastering the fundamental pillars of DDL and DML for effective data handling.
-- [x]	Understanding the power of SQL clauses to fetch and manipulate data with precision and accuracy.
-- [x]	Leveraging the power of functions to manipulate data and using aggregate functions for insightful data summarization.
-- [x]	Learning to group and categorize data for insightful analysis, powered by aggregate functions.
-- [x]	Exploring the world of data relationships through various join techniques for a comprehensive understanding of data.
-- [x]	Harnessing the potential of subqueries and Common Table Expressions (CTEs) to solve complex data challenges.
-- [x]	Delving into advanced analytical capabilities through window functions for enhanced insights.
+- [x]	Mastering the fundamental pillars of ***DDL*** and ***DML*** for effective data handling.
+- [x]	Understanding the power of ***SQL Clauses*** to fetch and manipulate data with precision and accuracy.
+- [x]	Leveraging the power of ***Functions*** to manipulate data and using aggregate functions for insightful data summarization.
+- [x]	Learning to ***Group By*** and categorize data for insightful analysis, powered by ***Aggregate Functions***.
+- [x]	Exploring the world of data relationships through various ***Join Techniques*** for a comprehensive understanding of data.
+- [x]	Harnessing the potential of ***Subqueries and Common Table Expressions (CTEs)*** to solve complex data challenges.
+- [x]	Delving into advanced analytical capabilities through ***Window Functions*** for enhanced insights.
       
 ## Soft Skills:
 - [x]	Refined understanding of Sales & Forecast Accuracy Reports
