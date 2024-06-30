@@ -1,62 +1,82 @@
-## Gross Sales Report :
+# Ad-hoc Sales Analysis Project
+
+## Overview
+A computer peripherals company aimed to understand their sales performance and market dynamics better. This project focuses on providing detailed insights into product performance, customer and market analysis, and sales trends over recent years. The analysis addresses ten specific questions related to sales and market share using SQL for data analysis and Excel for visualization.
+
+## Objective
+Analyze the company's sales data to answer 12 key questions related to product performance, monthly and yearly sales trends, top markets and customers, market share distribution, and product sales by quantity.
+
+## Action
+### 1. Data Collection and Cleaning
+- Gathered sales data from the company's database, including product sales, customer information, market data, and sales quantities from 2018 to 2021.
+- Cleaned and organized the data to ensure accuracy and consistency.
+
+### 2. Data Analysis
+Analyzed following topics:
+- Monthly and yearly sales trends,
+- Top markets and customers,
+- Market share distribution, and
+- Product sales by quantity.
+
+### 3. Visualization and Reporting
+#### Excel Visualization
+- Created visualizations to effectively communicate findings, including bar charts and pie charts, to represent sales data, market shares, and performance trends.
+- Compiled the analysis and visualizations into a comprehensive report for presentation.
+
+## Results
+Conducted various analyses using SQL to answer the key questions:
+1. Identified the top 10 Croma products by total gross sales in 2021.
+   ![1](https://github.com/anshulnigam77/Ad-hoc_Sales_Analysis_SQL/assets/160848154/2cb54459-9137-4ee8-98d3-1eb8f76d2b7c)
+
+2. Calculated Croma's total gross sales for each month in 2021.
+   ![2](https://github.com/anshulnigam77/Ad-hoc_Sales_Analysis_SQL/assets/160848154/5fa3064f-16a0-43ef-be84-ff6b6f1d3e98)
+
+3. Analyzed Croma's total gross sales yearly from 2018 to 2021.
+   ![2 5](https://github.com/anshulnigam77/Ad-hoc_Sales_Analysis_SQL/assets/160848154/badb657b-ded1-4101-8c42-5d0ce3724a6f)
+
+4. Determined the top 5 markets by net sales in 2021.
+   
+   ![3](https://github.com/anshulnigam77/Ad-hoc_Sales_Analysis_SQL/assets/160848154/67c9cbde-bf0f-4dcf-9cfe-64346acff745)
+
+5. Identified the top 5 customers by net sales in 2021.
+   
+    ![4](https://github.com/anshulnigam77/Ad-hoc_Sales_Analysis_SQL/assets/160848154/a0f69ca7-7a82-4958-a0f6-fe2f696db9d7)
+
+6. Determined the top 5 products by net sales in 2021.
+   
+    ![5](https://github.com/anshulnigam77/Ad-hoc_Sales_Analysis_SQL/assets/160848154/52bae787-7da5-40e5-9ec3-49d69e609d29)
+
+7. Calculated the market share percentage of each customer.
+    
+    ![6](https://github.com/anshulnigam77/Ad-hoc_Sales_Analysis_SQL/assets/160848154/c36e4368-051b-445a-8089-db39bc422a86)
+
+8. Calculated the market share percentage of each region.
+    ![7](https://github.com/anshulnigam77/Ad-hoc_Sales_Analysis_SQL/assets/160848154/e5632aae-5c27-4539-8e3a-665d15641318)
+
+9. Determined the top 3 products in each division by quantity sold.
+    ![8](https://github.com/anshulnigam77/Ad-hoc_Sales_Analysis_SQL/assets/160848154/a875953e-0c29-4bdb-871f-54e0f4d8dfbb)
+
+10. Determined the top 2 markets in each region by gross sales.
+    ![8 5](https://github.com/anshulnigam77/Ad-hoc_Sales_Analysis_SQL/assets/160848154/9bef79ae-1f43-437c-8384-55def2208548)
+
+11. Identifies top 10 Customers by Best Forecast Accuracy.
+    ![9](https://github.com/anshulnigam77/Ad-hoc_Sales_Analysis_SQL/assets/160848154/8b67e809-d4f4-4b17-b8bb-b51e3b811c15)
+
+12. Compared Forecast Accuracy of years 2021 and 2020 & identified top 10 Customers with improved Forecast Accuracy.
+    ![9 5](https://github.com/anshulnigam77/Ad-hoc_Sales_Analysis_SQL/assets/160848154/7a114739-2ea9-4b1a-af33-6fcde919526d)
+
+## Tools and Technologies
+- **MySQL** (for Analysis)
+- **Excel** (for visualisations)
+
+## SQL Techniques Used
+- Mastered the fundamental pillars of DDL and DML for effective data handling.
+- Utilized SQL Clauses to fetch and manipulate data with precision and accuracy.
+- Leveraged functions to manipulate data and used aggregate functions for insightful data summarization.
+- Used Group By and Aggregate Functions for categorized data analysis.
+- Explored data relationships through various Join techniques.
+- Harnessed the potential of Subqueries and Common Table Expressions (CTEs) to solve complex data challenges.
+- Applied advanced analytical capabilities through Window Functions for enhanced insights.
 
 
-- **Project objective:** 
-
-    **1.** Create a _[total gross sales report for year 2021](https://github.com/anshulnigam77/AtliQ_Sales_Analytics_SQL/blob/main/AtliQ%20Sales%20Analytics/Gross%20Sales/1.Total%20Gross%20Sales%20(2021).sql)_ 
-
-    **2.** Create _[total gross sales report by months](https://github.com/anshulnigam77/AtliQ_Sales_Analytics_SQL/blob/main/AtliQ%20Sales%20Analytics/Gross%20Sales/2.Total%20Gross%20Sales%20(Monthly).sql)_
-
-    **3.** Create _[total gross sales report by years](https://github.com/anshulnigam77/AtliQ_Sales_Analytics_SQL/blob/main/AtliQ%20Sales%20Analytics/Gross%20Sales/3.Total%20Gross%20Sales%20(Yearly).sql)_
-
-- **Purpose:** Empower businesses to monitor and evaluate their sales activities and performance.
-
-- **Importance of analyzing sales data:** Identify gross sales patterns and track key performance indicators (KPIs).
-
-- **Role of reports:** Determine effective customer discounts, facilitate negotiations with consumers, and identify potential business expansion opportunities in promising countries.
-
-
-## Market Share & Forecast Accuracy Report :
-
-- **Project objective:** 
-
-    **1.** Identify _[Market Share of all customers](https://github.com/anshulnigam77/AtliQ_Sales_Analytics_SQL/blob/main/AtliQ%20Sales%20Analytics/Marketshare%20%26%20Forecast%20Accuracy/1.Maretshare%25.sql)_
-
-   **2.** Identify _[Forecast Accuracy of all customers](https://github.com/anshulnigam77/AtliQ_Sales_Analytics_SQL/blob/main/AtliQ%20Sales%20Analytics/Marketshare%20%26%20Forecast%20Accuracy/3.Forecast%20Accuracy%20(by%20Customer).sql.sql)_
-
-- **Purpose:** Evaluation of performance, support decision-making to increase marketshare and improve forecast accuracy.
-
-- **Importance of analyzing data:** Aid in benchmarking against each other for budgeting and forecasting.
-
-- **Role of reports:** Aid forecast planning to reduce cost and Instill confidence in all customers regarding improving their market share.
-
-
-## Top N Report :
-
-- **Project objective:** 
-
-    **1.** Identify _[Top 5 Customers, Markets & Products](https://github.com/anshulnigam77/AtliQ_Sales_Analytics_SQL/blob/main/AtliQ%20Sales%20Analytics/Metrics%20by%20Rank/1.Top%205%20Customers%20(2021).sql)_
-
-   **2.** Identify _[Top 2 Markets & Top 3 Products by Division](https://github.com/anshulnigam77/AtliQ_Sales_Analytics_SQL/blob/main/AtliQ%20Sales%20Analytics/Metrics%20by%20Rank/4.Top2%20Markets%20(by%20Division).sql)_
-
-- **Purpose:** Top find out top performing Customers, Markets & Products.
-
-- **Importance of analyzing data:** Aids in figuring out which Customers, Markets & Products needs marketing strategies to increase sales.
-
-- **Role of reports:** To reward customers with high sales and loo into details of low performing Customers, Markets & Products.
-
-
-## Technical & Soft Skills:
-- [x]	Mastering the fundamental pillars of ***DDL*** and ***DML*** for effective data handling.
-- [x]	Understanding the power of ***SQL Clauses*** to fetch and manipulate data with precision and accuracy.
-- [x]	Leveraging the power of ***Functions*** to manipulate data and using aggregate functions for insightful data summarization.
-- [x]	Learning to ***Group By*** and categorize data for insightful analysis, powered by ***Aggregate Functions***.
-- [x]	Exploring the world of data relationships through various ***Join Techniques*** for a comprehensive understanding of data.
-- [x]	Harnessing the potential of ***Subqueries and Common Table Expressions (CTEs)*** to solve complex data challenges.
-- [x]	Delving into advanced analytical capabilities through ***Window Functions*** for enhanced insights.
-      
-## Soft Skills:
-- [x]	Refined understanding of Sales & Forecast Accuracy Reports
-- [x]	Designing user-centric reports with empathy in mind.
-- [x]	Optimization of report generation through meticulous fine-tuning.
-- [x]	Developing a systematic approach to devising a report building plan.
+This project provided the company with actionable insights into their sales performance, enabling better strategic decisions and market understanding.
